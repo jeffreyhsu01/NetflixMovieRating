@@ -1,0 +1,11 @@
+{
+    "name":"Netflix_Rating",
+    "version": "1.0",
+    "manifest_version":2,
+    "content_scripts": [
+        {
+            "matches": ["https://www.netflix.com/browse"],
+             "js": ["content.js"]
+        }
+    ]
+}
